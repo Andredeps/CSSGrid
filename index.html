@@ -9,6 +9,10 @@
     <link href="./assets/css/reset.css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
 
+    <!--Estilo Menu-->
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <!--Final do Estilo Menu-->
+    
     <!--Estilo Destaques-->
     <link rel="stylesheet" href="./assets/css/destaques.css">
     <!--Final do Estilo Destaques-->
@@ -19,7 +23,25 @@
 
 </head>
 <body class="app">
-    <header class="cabecalho">Cabeçalho</header>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a class="menu__link ativo" href="#">
+                        <i class="fas fa-home"></i>
+                        Início
+                    </a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-mobile-alt"></i>
+                        Aplicativos</a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-gamepad"></i>
+                        Jogos
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <!--Destaques-->
     <main class="conteudo">
@@ -380,8 +402,11 @@
         </section>
 
     <!--Final da secao de pupulares-->
+    
+    <!--Inicio rodapé-->
+    <footer class="rodape">Todos os direitos reservados &copy;2019</footer>
+    <!--FInal do rodapé-->    
 
-    <footer class="rodape"></footer>
     <script src="./assets/js/fontawesome.all.min.js"></script>
 </body>
 </html>
